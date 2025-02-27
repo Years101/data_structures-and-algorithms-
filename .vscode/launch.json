@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/moura/OneDrive/سطح المكتب/opencv/data_structures-and-algorithms-/data_structures/stack",
-      "program": "c:/Users/moura/OneDrive/سطح المكتب/opencv/data_structures-and-algorithms-/data_structures/stack/build/Debug/outDebug",
+      "cwd": "c:/Users/moura/OneDrive/سطح المكتب/opencv/data_structures-and-algorithms-/stack_with_linkedlist",
+      "program": "c:/Users/moura/OneDrive/سطح المكتب/opencv/data_structures-and-algorithms-/stack_with_linkedlist/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
