@@ -41,13 +41,3 @@ void display() {
 
 };
 
-
-int main(){
-    stacks stack_arr;
-    stack_arr.add(10);
-    stack_arr.add(2);
-    stack_arr.add(18);
-
-    stack_arr.display();
-    return 0;
-}

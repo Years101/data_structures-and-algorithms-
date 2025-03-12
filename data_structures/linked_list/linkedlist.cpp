@@ -43,10 +43,3 @@ public:
     }
 };
 
-int main() {
-    linked c;
-    c.app(11);
-    c.app(7);
-    c.dis();
-    return 0;
-}

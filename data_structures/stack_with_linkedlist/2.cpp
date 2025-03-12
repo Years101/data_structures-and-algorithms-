@@ -42,14 +42,3 @@ public :
 };
 
 
-int main(){
-stack s;
-s.append(1);
-s.append(10);
-s.append(123);
-s.append(0);
-s.displaytop();
-
-
-
-}
