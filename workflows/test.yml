@@ -1,0 +1,29 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y gcc g++ make
+
+      - name: Compile Code
+        run: |
+          g++ -o test_executable test_file.cpp -Wall -Wextra -std=c++17
+          
+      - name: Run Tests
+        run: ./test_executable
