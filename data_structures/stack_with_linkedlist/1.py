@@ -4,14 +4,14 @@ class node :
         self.next = None 
         
         
-class linked_list :
+class linkedlist :
     def __init__ (self):
         self.head=None
    
 
 class stack :
     def __init__ (self):
-        self.link=linked_list()
+        self.link=linkedlist()
         
     def findtop (self):
         if self.link.head == None :

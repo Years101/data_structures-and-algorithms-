@@ -23,7 +23,7 @@ jobs:
 
       - name: Compile Code
         run: |
-          g++ -o test_executable test_file.cpp -Wall -Wextra -std=c++17
+          g++ -o test_executable test_file.cpp implementation/*.cpp -Wall -Wextra -std=c++17
           
       - name: Run Tests
         run: ./test_executable

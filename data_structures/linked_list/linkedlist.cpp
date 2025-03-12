@@ -7,41 +7,39 @@ public:
     node *next;
 
     node(int v) {
-        this->data = v;  
+        this->data = v;
         this->next = nullptr;
     }
 };
 
 class linked_list {
-    node *head;
 public:
+    node *head;
+    
     linked_list() {
         head = nullptr;
     }
 
-    // Appending 
     void append(int data) {
-        node* n = new node(data);
-
+        node* newNode = new node(data);
         if (!head) {
-            head = n;
+            head = newNode;
             return;
         }
-        node* traverse = head;
-        while (traverse->next) {
-            traverse = traverse->next;
+        node* temp = head;
+        while (temp->next) {
+            temp = temp->next;
         }
-        traverse->next = n;
+        temp->next = newNode;
     }
 
-    // cout
-    void view() {
-        node* v = head;
-        while (v) {  
-            cout << v->data << "-" ;
-            v = v->next;
+    void display() {
+        node* temp = head;
+        while (temp) {
+            cout << temp->data << " -> ";
+            temp = temp->next;
         }
-        cout << "null" << endl;
+        cout << "none" << endl;
     }
 };
 
@@ -49,5 +47,6 @@ int main() {
     linked_list l;
     l.append(11);
     l.append(7);
-    l.view();  
+    l.display();
+    return 0;
 }
