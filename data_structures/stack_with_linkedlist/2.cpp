@@ -12,17 +12,17 @@ class node {
         }
     };
     
-class linked_list {
+class linkedlist {
     
 public:
     node *head;
-    linked_list() {
+    linkedlist() {
         head = nullptr;
     }};
 
 
 class stack {
-linked_list link;
+linkedlist link;
 public :
     void append (int data){
         node* n = new node(data);

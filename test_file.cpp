@@ -33,12 +33,12 @@ void test_stack_linked_list() {
 
 // Test function for linked list
 void test_linked_list() {
-    linked_list list;
-    list.append(5);
-    list.append(10);
-    list.append(15);
+    linked list;
+    list.app(5);
+    list.app(10);
+    list.app(15);
     
-    list.display(); // Expected: 5 -> 10 -> 15 -> none
+    list.dis(); // Expected: 5 -> 10 -> 15 -> none
     cout << "✅ Linked List tests passed!" << endl;
 }
 

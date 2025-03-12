@@ -12,15 +12,15 @@ public:
     }
 };
 
-class linked_list {
+class linked {
 public:
     node *head;
     
-    linked_list() {
+    linked () {
         head = nullptr;
     }
 
-    void append(int data) {
+    void app(int data) {
         node* newNode = new node(data);
         if (!head) {
             head = newNode;
@@ -33,7 +33,7 @@ public:
         temp->next = newNode;
     }
 
-    void display() {
+    void dis() {
         node* temp = head;
         while (temp) {
             cout << temp->data << " -> ";
@@ -44,9 +44,9 @@ public:
 };
 
 int main() {
-    linked_list l;
-    l.append(11);
-    l.append(7);
-    l.display();
+    linked c;
+    c.app(11);
+    c.app(7);
+    c.dis();
     return 0;
 }
