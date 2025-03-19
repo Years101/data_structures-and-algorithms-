@@ -3,10 +3,30 @@
 ## Overview
 Welcome to the **Data Structures and Algorithms** repository! This project serves as a collection of fundamental data structures and algorithms implemented in C++ and Python. Each section contains well-documented implementations along with explanations.
 
+## Structure
+```
+📂 Data-Structures
+│── 📂 Stack
+│   ├── stack.cpp  
+│   ├── stack.py
+│
+│── 📂 Linked_List
+│   ├── linkedlist.cpp  
+│   ├── linkedlist.py
+|
+│── 📂 Stack_with_linkedlist
+│   ├── 2.cpp  
+│   ├── stackwithlinkedlist.py
+|
+│── 📂 Docs
+│   ├── README.md  
+│  
+```
+
 ## Implemented Data Structures
 ### 1. Stacks (Array-Based)
 - Implementation of a stack using an array.
-- Supports basic operations: `push()`, `pop()`, `peek()`, and `isEmpty()`.
+- Supports basic operations: `append()`, `delete()`,`display()` and `top()`.
 
 ### 2. Stacks with Linked List
 - A dynamic stack implementation using a linked list.
@@ -14,12 +34,16 @@ Welcome to the **Data Structures and Algorithms** repository! This project serve
 
 ### 3. Linked List
 - Implementation of a singly linked list.
-- Supports operations: `insert()`, `delete()`, `search()`, and `display()`.
+- Supports operations: `append()` and `display()`.
 
-## Future Additions
+## Future Additions (To-Do List)
 - Queues (Array & Linked List)
 - Doubly Linked List
-- Trees (BST, AVL)
-- Graphs (DFS, BFS)
+- Circular Linked List
+- Trees (BST, AVL, Heap)
+- Graphs (DFS, BFS, Dijkstra's Algorithm)
+- Sorting Algorithms (Merge Sort, Quick Sort, Heap Sort)
+- Searching Algorithms (Binary Search, Interpolation Search)
+- Hash Tables
 
-
+### thanks for your attention
