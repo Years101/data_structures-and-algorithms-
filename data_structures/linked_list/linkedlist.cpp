@@ -176,6 +176,14 @@ public:
         }
         head = nullptr;
     }
+
+    void swapnodes(node* x , node* prevx , node* y , node * prevy){
+        prevx->next = y;
+        prevy->next = x;
+        node*temp =y->next;
+        y->next = x->next;
+        x->next=temp;
+    }
 };
 
 int main() {
