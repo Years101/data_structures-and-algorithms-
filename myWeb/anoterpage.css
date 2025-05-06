@@ -41,17 +41,7 @@ body {
       0 0 80px rgb(53, 0, 47);
   }
   
-  h2 {
-    position:absolute;
-    top: 100px;
-    right: 100px;
-    rotate: 45deg;
-    font-size: 100px;
-    color: rgb(150, 206, 255);
-    animation: floating 3s ease-in-out infinite;
-    z-index: 2;
-    pointer-events: none;
-  }
+
   
   @keyframes typing {
     from { width: 0 }

@@ -13,3 +13,11 @@ function validateAndRedirect() {
         document.getElementById('p1').textContent = "Invalid username or password!";
     }
 }
+
+function signup(){
+    window.location.href = "signup.html";
+
+}
+function forgotpassword(){
+    window.location.href = "forgotpassword.html";
+}
