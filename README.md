@@ -36,14 +36,6 @@ Welcome to the **Data Structures and Algorithms** repository! This project serve
 - Implementation of a singly linked list.
 - Supports operations: `append()` and `display()`.
 
-## Future Additions (To-Do List)
-- Queues (Array & Linked List)
-- Doubly Linked List
-- Circular Linked List
-- Trees (BST, AVL, Heap)
-- Graphs (DFS, BFS, Dijkstra's Algorithm)
-- Sorting Algorithms (Merge Sort, Quick Sort, Heap Sort)
-- Searching Algorithms (Binary Search, Interpolation Search)
-- Hash Tables
+
 
 ### thanks for your attention
